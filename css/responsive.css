@@ -1,0 +1,493 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+        width: 70%;
+    }
+    .navbar {
+        padding-top: 50px;
+    }
+    header {
+        height: 100vh;
+    }
+    .banner-inner {
+        width: 332px;
+        margin-top: 30%;
+    }
+    .banner-inner h1 {
+        font-size: 30px;
+    }
+    .banner-inner p {
+        font-size: 20px;
+    }
+    .banner-inner a {
+        font-size: 18px;
+        padding: 9px 15px;
+    }
+    /* Banner Part End */
+    #services-part h3 {
+        font-size: 25px;
+    }
+    #services-part p {
+        font-size: 19px;
+    }
+    .title h1 {
+        font-size: 35px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #course-part {
+        text-align: center;
+    }
+    #course-part img {
+        margin-top: 60px;
+        height: 260px;
+        object-fit: contain;
+    }
+    #course-part .course-inner {
+        text-align: center;
+        padding: 0 15px;
+    }
+    #course-part .course-inner h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #course-part .course-inner p {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+    #course-part .course-inner a {
+        padding: 9px 16px;
+        font-size: 19px;
+    }
+    #course-part::before {
+        bottom: 0px;
+        right: 30px;
+        width: 7%;
+        height: 2%;
+        background-size: contain;
+    }
+    #about-part {
+        padding: 70px 0 90px 0;
+        text-align: center;
+    }
+    #about-part::before {
+        height: 20vh;
+    }
+    #about-part img {
+        width: 85%;
+        margin-bottom: 30px;
+        padding: 0;
+        height: auto;
+    }
+    #about-part h4 {
+        font-size: 23px;
+    }
+    #about-part p {
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    #about-part a {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    #instructor-part .item img {
+        max-height: 400px;
+        width: 100%;
+    }
+    #instructor-part .item .ins-info {
+        padding: 18px;
+        margin-left: 21%;
+        bottom: 49px;
+    }
+    #instructor-part .item .ins-info h4 {
+        font-size: 25px;
+    }
+    #instructor-part .item .ins-info p {
+        font-size: 17px;
+    }
+    #instructor-part .item i {
+        margin-top: 64px;
+        padding: 9px;
+    }
+    #review-part {
+        padding: 75px 0;
+    }
+    #review-part h1 {
+        margin-bottom: 80px;
+        font-size: 30px;
+    }
+    #review-part p {
+        margin-bottom: 90px;
+        font-size: 16px;
+    }
+    #gallery-part {
+        padding: 70px 0 50px 0;
+    }
+    #gallery-part .title p {
+        font-size: 19px;
+        margin-bottom: 35px;
+    }
+    #ad-part p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    #ad-part .download {
+        height: 120vh;
+        background-position: right bottom;
+        width: 84vh;
+    }
+    #ad-part .download h1 {
+        font-size: 33px;
+        top: 7%;
+        right: 39%;
+    }
+    #ad-part .download a {
+        font-size: 17px;
+        padding: 10px 20px;
+        bottom: 13%;
+        right: 49%;
+    }
+    #ad-part .register {
+        width: 100vh;
+    }
+    #ad-part .register .register-inner {
+        width: 324px;
+        margin-left: 0px;
+    }
+    #ad-part .register .register-inner h2 {
+        margin-bottom: 50px;
+        font-size: 33px;
+    }
+    #ad-part .register .register-inner p {
+        font-size: 18px;
+    }
+    #ad-part .register .register-inner a {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand img {
+        width: 80%;
+    }
+    .banner-inner {
+        width: 393px;
+        margin-top: 30%;
+    }
+    .banner-inner h1 {
+        font-size: 32px;
+    }
+    .banner-inner p {
+        font-size: 20px;
+    }
+    .banner-inner a {
+        font-size: 18px;
+        padding: 9px 15px;
+    }
+    #services-part h3 {
+        font-size: 25px;
+    }
+    #services-part p {
+        font-size: 20px;
+    }
+    .title h1 {
+        font-size: 35px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #course-part {
+        text-align: center;
+    }
+    #course-part img {
+        margin-top: 60px;
+        height: 300px;
+        object-fit: contain;
+    }
+    #course-part .course-inner {
+        text-align: center;
+    }
+    #course-part .course-inner h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #course-part .course-inner p {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+    #course-part::before {
+        bottom: 0px;
+        right: 30px;
+        width: 7%;
+        height: 2%;
+        background-size: contain;
+    }
+    #about-part {
+        padding: 70px 0 90px 0;
+        text-align: center;
+    }
+    #about-part::before {
+        height: 20vh;
+        width: 100%;
+    }
+    #about-part img {
+        width: 80%;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    #about-part h4 {
+        font-size: 23px;
+    }
+    #about-part p {
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    #about-part a {
+        font-size: 20px;
+        padding: 9px 18px;
+    }
+    #instructor-part {
+        padding: 80px 0;
+    }
+    #review-part {
+        padding: 80px 0;
+    }
+    #review-part h1 {
+        margin-bottom: 90px;
+    }
+    #review-part p {
+        margin-bottom: 100px;
+    }
+    #gallery-part {
+        padding: 80px 0 70px 0;
+    }
+    #gallery-part .title p {
+        font-size: 21px;
+        margin-bottom: 35px;
+    }
+    #ad-part p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    #ad-part .download {
+        height: 120vh;
+        background-position: right bottom;
+        width: 100%;
+    }
+    #ad-part .download h1 {
+        font-size: 33px;
+        top: 7%;
+        right: 28%;
+    }
+    #ad-part .download a {
+        font-size: 17px;
+        padding: 10px 20px;
+        bottom: 13%;
+        right: 32%;
+    }
+    #ad-part .register {
+        width: 100%;
+    }
+    #ad-part .register .register-inner {
+        width: 372px;
+        margin-left: 0;
+    }
+    #ad-part .register .register-inner h2 {
+        margin-bottom: 50px;
+    }
+    #ad-part .register .register-inner p {
+        font-size: 23px;
+    }
+    #ad-part .register .register-inner a {
+        padding: 10px 20px;
+        font-size: 19px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand img {
+        width: 90%;
+    }
+    .banner-inner {
+        width: 450px;
+        margin-top: 40%;
+    }
+    .banner-inner h1 {
+        font-size: 37px;
+        margin-bottom: 32px;
+    }
+    .banner-inner p {
+        font-size: 24px;
+        margin-bottom: 45px;
+    }
+    .banner-inner a {
+        font-size: 18px;
+        padding: 9px 15px;
+    }
+    /* Banner Part End */
+    #services-part .services-inner {
+        padding: 13px;
+    }
+    #services-part .services-inner h3 {
+        font-size: 22px;
+    }
+    #services-part .services-inner p {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    #course-part .course-inner {
+        padding: 6px 0;
+    }
+    #course-part .course-inner h3 {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+    #course-part .course-inner p {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+    #course-part .course-inner a {
+        padding: 9px 16px;
+        font-size: 16px;
+    }
+    #course-part::before {
+        bottom: -20px;
+        right: 35px;
+        width: 9%;
+        height: 9%;
+        background-size: contain;
+    }
+    #about-part {
+        padding: 90px 0 80px 0;
+    }
+    #about-part::before {
+        width: 52%;
+        height: 50%;
+    }
+    #about-part img {
+        height: 335px;
+        object-fit: cover;
+        padding: 0;
+    }
+    #about-part h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    #about-part h4 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    #about-part p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    #about-part a {
+        font-size: 18px;
+        padding: 9px 16px;
+    }
+    #instructor-part .item .ins-info {
+        padding: 25px;
+        margin-left: 33%;
+        bottom: 65px;
+    }
+    #review-part {
+        padding: 90px 0;
+    }
+    #review-part h1 {
+        margin-bottom: 90px;
+    }
+    #review-part p {
+        margin-bottom: 100px;
+    }
+    #gallery-part {
+        padding: 90px 0 70px 0;
+    }
+    #gallery-part .title h1 {
+        font-size: 35px;
+    }
+    #gallery-part .title p {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    #ad-part .download {
+        background-position: right center;
+    }
+    #ad-part .download h1 {
+        font-size: 33px;
+        top: 18%;
+        right: 26%;
+    }
+    #ad-part .download a {
+        font-size: 17px;
+        padding: 10px 20px;
+        bottom: 10%;
+        right: 33%;
+    }
+    #ad-part .register {
+        width: 100%;
+        background-size: cover;
+    }
+    #ad-part .register .register-inner {
+        margin: 0;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand img {
+        width: 90%;
+    }
+    .nav-link {
+        font-size: 17px;
+    }
+    header {
+        height: 120vh;
+    }
+    .banner-inner {
+        width: 393px;
+        margin-top: 19%;
+    }
+    .banner-inner h1 {
+        font-size: 37px;
+    }
+    .banner-inner p {
+        font-size: 21px;
+    }
+    .banner-inner a {
+        font-size: 20px;
+        padding: 9px 15px;
+    }
+    /* Banner Part End */
+    #about-part::before {
+        width: 52%;
+        height: 50%;
+    }
+    #services-part .services-inner {
+        padding: 0 32px;
+    }
+    #course-part .course-inner {
+        padding: 0 17px;
+    }
+    #ad-part .download h1 {
+        top: 17%;
+        right: 7%;
+    }
+    #ad-part .download a {
+        bottom: 8%;
+        right: 11%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

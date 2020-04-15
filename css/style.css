@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+p,
+address {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/********************************
+       **GLOBAL CSS ENDS**
+*********************************/
+
+header {
+    background-image: url(../images/banner-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 925px;
+}
+
+header .bg-light {
+    background-color: transparent !important;
+}
+
+.navbar {
+    padding-top: 80px;
+}
+
+.navbar-brand {
+    margin-right: 85px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff !important;
+    margin-left: 25px;
+    transition: all linear 0.3s;
+    text-transform: uppercase;
+}
+
+.active>.nav-link {
+    color: #FF4FF1 !important;
+}
+
+.nav-link:hover {
+    color: #FF4FF1 !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+    outline: 0;
+}
+
+.navbar-light .navbar-toggler i {
+    color: #fff;
+    font-size: 29px;
+}
+
+
+/* Navbar CSS Ends */
+
+.banner-inner {
+    width: 624px;
+    margin-top: 252px;
+}
+
+.banner-inner h1 {
+    font-size: 58px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: .9;
+}
+
+.banner-inner p {
+    font-size: 33px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 60px;
+    line-height: 1;
+}
+
+.banner-inner a {
+    padding: 15px 25px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #FF4FF1;
+    text-transform: uppercase;
+    border: 1px solid #FF4FF1;
+    transition: all linear 0.4s;
+}
+
+.banner-inner a:hover {
+    background-color: transparent;
+}
+
+
+/********************************
+       ** HEADER CSS END **
+*********************************/
+
+#services-part {
+    padding: 100px 0;
+}
+
+#services-part .services-inner {
+    padding: 0 68px;
+}
+
+#services-part img {
+    object-fit: none;
+    margin-bottom: 30px;
+    height: 97px;
+}
+
+#services-part h3 {
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #424242;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#services-part p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #000000;
+}
+
+
+/**********************************
+       ** SERVICES CSS END **
+***********************************/
+
+#course-part {
+    padding: 100px 0;
+    background-color: #482A8F;
+    position: relative;
+}
+
+#course-part::before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/four-cross.png);
+    background-position: bottom center;
+    bottom: -27px;
+    right: 30px;
+    width: 8%;
+    height: 100px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+#course-part .course-inner {
+    padding: 0 55px;
+}
+
+#course-part img {
+    object-fit: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#course-part .course-inner h3 {
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #00DEE5;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#course-part .course-inner p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+#course-part .course-inner a {
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FF4FF1;
+    text-transform: uppercase;
+    border: 1px solid #FF4FF1;
+    transition: all linear 0.3s;
+}
+
+#course-part .course-inner a:hover {
+    background-color: transparent;
+}
+
+
+/********************************
+       ** COURSE CSS END **
+*********************************/
+
+#about-part {
+    padding: 130px 0 90px 0;
+    position: relative;
+}
+
+#about-part::before {
+    content: '';
+    position: absolute;
+    width: 100vh;
+    height: 40vh;
+    top: 0;
+    left: 0;
+    background-color: #00DEE5;
+}
+
+#about-part img {
+    padding-right: 50px;
+    height: max-content;
+}
+
+#about-part h2 {
+    font-size: 37px;
+    font-weight: bold;
+    color: #00DEE5;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#about-part h4 {
+    font-size: 29px;
+    font-weight: 500;
+    color: #444444;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#about-part p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 60px;
+}
+
+#about-part a {
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FF4FF1;
+    text-transform: uppercase;
+    border: 1px solid #FF4FF1;
+    transition: all linear 0.3s;
+}
+
+#about-part a:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+
+/**********************************
+       ** ABOUT CSS END **
+***********************************/
+
+#instructor-part {
+    text-align: center;
+    padding: 120px 0;
+    background-color: #482A8F;
+    position: relative;
+}
+
+#instructor-part .item img {
+    max-height: 500px;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+}
+
+#instructor-part .item .ins-info {
+    background-color: #FF4FF1;
+    padding: 30px;
+    width: fit-content;
+    margin-left: 28%;
+    z-index: 9999;
+    position: absolute;
+    bottom: 52px;
+}
+
+#instructor-part .item .ins-info h4 {
+    font-size: 29px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#instructor-part .item .ins-info p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+}
+
+#instructor-part .item i {
+    margin-top: 89px;
+    margin-left: 10px;
+    color: #482A8F;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: all linear .3s;
+}
+
+#instructor-part .item i:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    outline: none;
+    margin-top: -60px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    outline: none;
+    margin-top: -60px;
+}
+
+
+/**********************************
+       ** INSTRUCTOR CSS END **
+***********************************/
+
+#review-part {
+    background-image: url(../images/client-review.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    padding: 135px 0;
+    text-align: center;
+}
+
+#review-part h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #00DEE5;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+#review-part p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 2px solid #00DEE5;
+}
+
+.owl-theme .owl-dots .owl-dot span:hover {
+    background-color: #00DEE5;
+    outline: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #00DEE5;
+}
+
+
+/**********************************
+       ** REVIEW CSS END **
+***********************************/
+
+#gallery-part {
+    text-align: center;
+    padding: 120px 0 70px 0;
+    width: 100%;
+}
+
+#gallery-part .title h1 {
+    color: #00DEE5;
+    margin-bottom: 10px;
+}
+
+#gallery-part .title p {
+    font-size: 28px;
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+#gallery-part .owl-three {
+    margin-bottom: 20px;
+}
+
+
+/**********************************
+       ** GALLERY CSS END **
+***********************************/
+
+#ad-part .download {
+    background-image: url(../images/download.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+    text-align: center;
+}
+
+#ad-part p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    padding: 0;
+}
+
+#ad-part .download h1 {
+    font-size: 41px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 14%;
+    right: 10%;
+    line-height: .9;
+}
+
+#ad-part .download a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 14px 24px;
+    background-color: #00DEE5;
+    transition: all linear .3s;
+    border: 1px solid #00DEE5;
+    position: absolute;
+    bottom: 6%;
+    right: 15%;
+}
+
+#ad-part .download a:hover {
+    background-color: transparent;
+    color: #FF4FF1;
+}
+
+#ad-part .register {
+    background-image: url(../images/b1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 150px 0 80px 0;
+}
+
+#ad-part .register .register-inner {
+    width: 413px;
+    height: auto;
+    margin-left: 100px;
+}
+
+#ad-part .register .register-inner h2 {
+    font-size: 37px;
+    font-weight: bold;
+    color: #00DEE5;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+#ad-part .register .register-inner p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    line-height: normal;
+    text-transform: none;
+    margin-bottom: 50px;
+}
+
+#ad-part .register .register-inner a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 14px 24px;
+    background-color: #00DEE5;
+    transition: all linear .3s;
+    border: 1px solid #00DEE5;
+}
+
+#ad-part .register .register-inner a:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+
+/**********************************
+       ** AD. CSS END **
+***********************************/
